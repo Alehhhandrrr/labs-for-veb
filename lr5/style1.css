@@ -1,0 +1,129 @@
+body{
+    width: 612px;
+    height: 791px;
+    margin-top: 43px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+.h3_heading{
+    margin: 0%;
+    padding: 5px;
+    color: #F6F6F6;
+    background: #282387;
+    font-size: 8px;
+    font-weight: 400;
+    width: 222px;
+    font-family: 'Space Mono';
+}
+
+.p_heading{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #282387;
+    font-family: 'Space Grotesk';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110.4%;
+    width: 532px;
+}
+
+.h3_heading_s1{
+    font-family: 'Space Mono';
+    margin: 0%;
+    padding: 5px;
+    color: #F6F6F6;
+    background: #282387;
+    font-size: 8px;
+    font-weight: 400;
+    width: 247px;
+}
+
+.p_heading_s1{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #282387;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110.4%;
+    width: 532px;
+}
+
+.h3_heading_s2{
+    font-family: 'Space Mono';
+    margin: 0%;
+    padding: 5px;
+    color: #F6F6F6;
+    background: #282387;
+    font-size: 8px;
+    font-weight: 400;
+    width: 260px;
+}
+
+.p_heading_s2{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #282387;
+    font-family: 'Space Grotesk';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110.4%;
+    width: 532px;
+}
+
+.h3_heading_s3{
+    font-family: 'Space Mono';
+    margin: 0%;
+    padding: 5px;
+    color: #F6F6F6;
+    background: #282387;
+    font-size: 8px;
+    font-weight: 400;
+    width: 247px;
+}
+
+.p_heading_s3{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #282387;
+    font-family: 'Space Grotesk';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110.4%;
+    width: 532px;
+}
+
+.h3_heading_p{
+    font-family: 'Space Mono';
+    margin: 0%;
+    padding: 5px;
+    color: #F6F6F6;
+    background: #282387;
+    font-size: 8px;
+    font-weight: 400;
+    width: 267px;
+}
+
+.p_heading_p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #282387;
+    font-family: 'Space Grotesk';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110.4%;
+    width: 254px;
+}
+
+.img{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}

@@ -1,0 +1,547 @@
+#container {
+    border: 1px solid red;
+    width: 612px;
+    height: 791px;
+    margin: 0%;
+}
+
+.header {
+    width: 532px;
+    height: 184px;
+    flex-shrink: 0;
+}
+
+.name {
+    color: #111118;
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.prof {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 66px;
+    left: 40px;
+}
+
+.lorem1 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110.4%;
+    position: absolute;
+    top: 112px;
+    left: 40px;
+    width: 532px;
+}
+
+.education {
+    width: 254px;
+    height: 151px;
+    flex-shrink: 0;
+}
+
+.ed {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+}
+
+.university {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.4%;
+    position: absolute;
+    width: 254px;
+    top: 311px;
+    left: 40px;
+}
+
+.college {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.4%;
+    position: absolute;
+    width: 254px;
+    top: 379px;
+    left: 40px;
+
+}
+
+.star1 {
+    position: absolute;
+    top: 306px;
+    left: 125px;
+}
+
+.star2 {
+    position: absolute;
+    top: 374px;
+    left: 120px;
+}
+
+.lorem2 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    position: absolute;
+    width: 254px;
+    top: 327px;
+    left: 40px;
+}
+
+.lorem3 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    position: absolute;
+    width: 254px;
+    top: 395px;
+    left: 40px;
+}
+
+.skillset {
+    width: 246.29px;
+    height: 144px;
+    flex-shrink: 0;
+}
+
+.skill {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 280px;
+    left: 318px;
+
+}
+
+.html {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(24.427deg);
+    position: absolute;
+    top: 348px;
+    left: 528px;
+}
+
+.Illustrator {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-20.11deg);
+    position: absolute;
+    top: 397.44px;
+    left: 518px;
+}
+
+.Photoshop {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(13.487deg);
+    position: absolute;
+    top: 371px;
+    left: 481px;
+}
+
+.Ajax_APIs {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(21.254deg);
+    position: absolute;
+    top: 378.58px;
+    left: 324.07px;
+}
+
+.Javascript {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-4.714deg);
+    position: absolute;
+    top: 348px;
+    left: 351px;
+}
+
+.cs {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-20.649deg);
+    position: absolute;
+    top: 406px;
+    left: 339px;
+}
+
+.Brand_Design {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 379.2px;
+    left: 404px;
+}
+
+.Product_Design {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-12.405deg);
+    position: absolute;
+    top: 312.35px;
+    left: 400.94px;
+}
+
+.C4D {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(40.568deg);
+    position: absolute;
+    top: 403.62px;
+    left: 471.26px;
+}
+
+.After_Effects {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 315.31px;
+    left: 496px;
+}
+
+.Figma {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(-19.524deg);
+    position: absolute;
+    top: 324.61px;
+    left: 332.7px;
+}
+
+.InDesign {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: rotate(0.6deg);
+    position: absolute;
+    top: 348px;
+    left: 435px;
+}
+
+.star3 {
+    position: absolute;
+    top: 406px;
+    left: 332px;
+}
+
+.star4 {
+    position: absolute;
+    top: 317px;
+    left: 392px;
+}
+
+.star5 {
+    position: absolute;
+    top: 385px;
+    left: 398px;
+}
+
+.star6 {
+    position: absolute;
+    top: 327px;
+    left: 326.79px;
+}
+
+.star7 {
+    position: absolute;
+    top: 387px;
+    left: 391px;
+}
+
+.star8 {
+    position: absolute;
+    top: 409px;
+    left: 325px;
+}
+
+.company1 {
+    width: 254px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.bong {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 464px;
+    left: 40px;
+}
+
+.lorem4 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    width: 254px;
+    position: absolute;
+    top: 495px;
+    left: 40px;
+}
+
+.date1 {
+    color: #111118;
+    text-align: right;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.4%;
+    width: 98x;
+    position: absolute;
+    top: 475px;
+    left: 242px;
+}
+
+.company2 {
+    width: 254px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.zoink {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 464px;
+    left: 318px;
+}
+
+.lorem5 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    width: 254px;
+    position: absolute;
+    top: 495px;
+    left: 318px;
+}
+
+.date2 {
+    color: #111118;
+    text-align: right;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.4%;
+    width: 98x;
+    position: absolute;
+    top: 475px;
+    left: 522px;
+}
+
+.company3 {
+    width: 254px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.splat {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 591px;
+    left: 40px;
+}
+
+.lorem6 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    width: 254px;
+    position: absolute;
+    top: 620px;
+    left: 40px;
+}
+
+.date3 {
+    color: #111118;
+    text-align: right;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.4%;
+    width: 98x;
+    position: absolute;
+    top: 599px;
+    left: 243px;
+}
+
+.company4 {
+    width: 254px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.kaboom {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 591px;
+    left: 318px;
+}
+
+.lorem7 {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.4%;
+    width: 254px;
+    position: absolute;
+    top: 620px;
+    left: 318px;
+}
+
+.date4 {
+    color: #111118;
+    text-align: right;
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.4%;
+    width: 98x;
+    position: absolute;
+    top: 599px;
+    left: 522px;
+}
+
+.footer {
+    width: 180px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.point {
+    position: absolute;
+    top: 740px;
+    left: 40px;
+}
+
+.adress {
+    color: #111118;
+    font-family: Space Grotesk;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 741px;
+    left: 65px;
+}
