@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Меню ресторана</h1>
+
+    <form onsubmit="return validateForm()">
+        <label for="search">Поиск блюда:</label>
+        <input type="text" id="search" name="search">
+        <button type="submit">Поиск</button>
+    </form>
+
+    <h2>Фильтры</h2>
+    <form onsubmit="return validateForm()">
+        <label for="category">Категория:</label>
+        <select id="category" name="category">
+            <option value="">Все категории</option>
+            <option value="appetizers">Закуски</option>
+            <option value="main-course">Основные блюда</option>
+            <option value="desserts">Десерты</option>
+        </select>
+
+        <label for="price">Цена до:</label>
+        <input type="number" id="price" name="price">
+        <span id="priceError" class="error"></span>
+        
+        <button type="submit">Применить фильтры</button>
+    </form>
+
+    <!-- Здесь можно выводить результаты поиска и фильтрации -->
+    <div id="results"></div>
+
+    <script>
+        function validateForm() {
+            const priceInput = document.getElementById("price");
+            const priceError = document.getElementById("priceError");
+            const priceValue = priceInput.value.trim();
+
+            // Валидация цены (должна быть положительным числом)
+            if (priceValue !== "" && isNaN(priceValue)) {
+                priceError.textContent = "Пожалуйста, введите числовое значение";
+                priceInput.focus();
+                return false;
+            } else if (priceValue !== "" && parseFloat(priceValue) <= 0) {
+                priceError.textContent = "Цена должна быть положительным числом";
+                priceInput.focus();
+                return false;
+            } else {
+                priceError.textContent = ""; // Очищаем сообщение об ошибке
+            }
+
+            // Все поля прошли валидацию, можно отправить форму
+            return true;
+        }
+    </script>
+</body>
+</html>
