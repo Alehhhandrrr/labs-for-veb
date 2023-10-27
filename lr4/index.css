@@ -1,0 +1,96 @@
+p#test, h2{
+    color: blue;
+}
+
+p>a, a.test{
+    color: red;
+}
+
+p.top{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+li>a:link{
+    color: green;
+}
+
+li>a:active{
+    color: red;
+}
+
+li>a:visited{
+    color: purple;
+}
+
+li>a:hover{
+    color: pink;
+}
+
+.table{
+    border: 5px solid;
+}
+
+.zagolovki{
+    font-size: 30px;
+}
+
+#first{
+    background-color: brown;
+}
+
+tr:nth-child(2n) {
+    background-color: aqua;
+   }
+
+tr:nth-child(2n+1) { 
+    background-color: blue;
+}
+
+.checkbox{
+    background-color: lightsalmon;
+}
+
+.checkbox1{
+    background-color: blueviolet;
+}
+
+span.icon a:link,
+span.icon a:visited {
+  display: block;
+  text-indent: -9999px;
+  
+  background-repeat: no-repeat;
+}
+
+/* Instagram Icon */
+span.instagram a:link,
+span.instagram a:visited {
+  width: 125px;
+  height: 125px;
+  background-image: url(./insta.png);
+  background-position: 0 0;
+}
+
+
+/* Twitter Icon */
+span.twitter a:link,
+span.twitter a:visited {
+  width: 125px;
+  height: 125px;
+  background-image: url(./twitter.png);
+  background-position: -128px 0;
+}
+
+/* Facebook Icon */
+span.facebook a:link,
+span.facebook a:visited {
+  width: 125px;
+  height: 125px;
+  background-image: url(./facebook.png);
+  background-position: -257px 0;
+}
+
+span.instagram a:hover {background-position: 0 -128px;}
+span.twitter a:hover {background-position: -128px -128px;}
+span.facebook a:hover {background-position: -255px -128px;}
