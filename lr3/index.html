@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Меню ресторана</h1>
+
+    <form>
+        <label for="search">Поиск блюда:</label>
+        <input type="text" id="search" name="search">
+        <button type="submit">Поиск</button>
+    </form>
+
+    <h2>Фильтры</h2>
+    <form>
+        <label for="category">Категория:</label>
+        <select id="category" name="category">
+            <option value="">Все категории</option>
+            <option value="appetizers">Закуски</option>
+            <option value="main-course">Основные блюда</option>
+            <option value="desserts">Десерты</option>
+        </select>
+
+        <label for="price">Цена до:</label>
+        <input type="number" min="1" id="price" name="price">
+        
+        <button type="submit">Применить фильтры</button>
+    </form>
+</body>
+</html>
